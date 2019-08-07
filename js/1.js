@@ -71,7 +71,7 @@ for (var i = 0; i <= 5; i++) {
  	numeros.push(parseInt(prompt("Ingresa el numero"+" "+[i+1])));
  } 
 
-MostrarNumeros(numeros,"holi");
+MostrarNumeros(numeros,"adiosi");
 OrdenarNumeros(numeros);
 
 
