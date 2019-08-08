@@ -325,3 +325,20 @@ OrdenarNumeros(numeros);
 
 
 */
+
+
+var todoslosDiv = document.getElementsByTagName('div');
+
+var valor;
+
+for (valor in todoslosDiv){
+
+	if(typeof (todoslosDiv[valor].textContent) == 'string'){
+		var parrafo = document.createElement("p");
+		var texto = document.createTextNode(todoslosDiv[valor].textContent);
+		parrafo.appendChild(texto);
+		document.querySelector("#miseccion").appendChild(parrafo);
+	}
+}
+
+console.log(todoslosDiv);
